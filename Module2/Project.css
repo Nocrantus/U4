@@ -1,0 +1,36 @@
+body{
+	background-color:#5c008b;
+}
+h1{
+	color:#e13661;
+	    text-shadow:
+	0px -1px 0 #000; 
+}
+
+h2{
+	color:#ef2e78;
+	    text-shadow:
+	0px -1px 0 #000; 
+}
+.paragraph{
+	color:#ff8300;
+    text-shadow:
+	0px -1px 0 #000; 
+}
+
+
+.accent0 {
+  height: 50px;
+  width: 50px;
+  background-color: #165baa;
+}
+.accent1 {
+  height: 50px;
+  width: 50px;
+  background-color: #f765a3;
+}
+.accent2 {
+  height: 50px;
+  width: 50px;
+  background-color: #e13661;
+}
