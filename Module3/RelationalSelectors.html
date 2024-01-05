@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Relational Selectors</title>
+		<style>
+			section p{
+			color: blue;
+			}
+			
+			h1+p{
+			color:green;
+			}
+			
+			.Parent>p{
+			color:red;
+			}
+			
+			.siblings>h1~p{
+			color:red;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<section>
+		<p>Hello World!</p>
+		</section>
+		<h1>Adjacent</h1>
+		<p>Sibling</p>
+		<div class="parent">
+		<p>Child</p>
+		</div>
+		<div class="siblings">
+		<h1>Sibling</h1>
+		<p>Sibling</p>
+		</div>
+	</body>
+</html>
